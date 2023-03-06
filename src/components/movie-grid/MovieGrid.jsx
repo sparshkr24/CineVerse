@@ -119,11 +119,11 @@ const MovieSearch = props => {
         <div className="movie-search">
             <Input
                 type="text"
-                placeholder="Enter keyword"
+                placeholder="What's on your mind?"
                 value={keyword}
                 onChange={(e) => setKeyword(e.target.value)}
             />
-            <Button className="small" onClick={goToSearch}>Search</Button>
+            <Button className="small" onClick={goToSearch}>Go!</Button>
         </div>
     )
 }

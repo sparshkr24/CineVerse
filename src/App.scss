@@ -1,5 +1,4 @@
 @use "./scss/" as *;
-
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap");
 
 * {
@@ -25,7 +24,11 @@ body {
     font-family: $font-family;
     font-weight: 400;
     line-height: 1.5;
+    // background-image: url("https://www.hdwallpapers.in/download/stars_space_darkness_night_black_sky_background_hd_space-1600x900.jpg");
 
+    // background-size: cover;
+    background-position: center;
+    opacity: 0.8;
     background-color: $body-bg;
     color: $txt-color;
 
@@ -49,6 +52,9 @@ button,
 input {
     outline: 0;
 }
+button:hover {
+    box-shadow: 0 0 10px $main-color;
+  }
 
 ul {
     list-style-type: none;

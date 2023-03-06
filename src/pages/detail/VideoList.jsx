@@ -1,3 +1,4 @@
+/* eslint-disable react/style-prop-object */
 import React, { useState, useEffect, useRef } from 'react';
 
 import { useParams } from 'react-router';
@@ -48,7 +49,7 @@ const Video = props => {
             <iframe
                 src={`https://www.youtube.com/embed/${item.key}`}
                 ref={iframeRef}
-                width="100%"
+                width="50%"
                 title="video"
             ></iframe>
         </div>
